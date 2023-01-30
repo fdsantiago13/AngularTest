@@ -1,0 +1,32 @@
+.rec-dot_active {
+  background-color: #83b7ac !important;
+  box-shadow: 0 0 1px 3px rgb(211, 211, 211) !important;
+}
+.rec-dot:focus,
+.rec-dot:hover {
+  box-shadow: 0 0 1px 3px #83b7ac !important;
+}
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+  background-color: #83b7ac !important;
+  box-shadow: 0 0 1px 3px #83b7ac !important;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec-arrow {
+  background-color: #fff !important;
+  transition: all 0.3s ease;
+  font-size: 1.1rem !important;
+  color: #83b7ac !important;
+  width: 1.7rem !important;
+  height: 1.7rem !important;
+  min-width: 1.7rem !important;
+  line-height: 1.7rem !important;
+}
+
+.rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2);
+}

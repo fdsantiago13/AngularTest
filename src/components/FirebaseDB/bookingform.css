@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+.parentForm {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.childForm {
+  flex: 0 1 400px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  margin: 10px auto;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.calendarForm {
+  flex: 0 1 400px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+
+.childForm label {
+  display: block;
+  flex: 1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 2px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.childForm input {
+  width: 400px;
+  height: 5%;
+  padding: 10px;
+  font-size: 15px;
+  flex: 2;
+  border: 1px solid #6fc8bf;
+  border-radius: 8px;
+}
+
+.childForm p {
+  font-size: 30px;
+  color: #edb16f;
+  line-height: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.childForm select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #6fc8bf;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.btn {
+  color: white;
+  background-color: #6fc8bf;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  width: 100%;
+  margin-top: 10px;
+}
